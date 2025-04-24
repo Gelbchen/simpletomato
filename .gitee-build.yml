@@ -1,0 +1,22 @@
+---
+version: 1.0
+jdk: 1.8
+stages:
+  - name: build
+    jobs:
+      - name: main
+        steps:
+          - name: prepare
+            commands:
+              - chmod +x gradlew
+              - mkdir -p output
+              - rm -rf ~/.gradle
+              - rm -rf .gradle
+              - rm -rf app/build
+          - name: build
+            commands:
+              - ./gradlew clean assembleDebug
+              - find app/build/outputs -name "*.apk" -exec cp {} output/ \;
+              - ls -la output/
+            artifacts:
+              - output/*.apk 
