@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SimpleTomato</string>
+    <string name="focus_time">专注时间（分钟）</string>
+    <string name="break_time">休息时间（分钟）</string>
+    <string name="start_focus">开始专注</string>
+    <string name="stop_timer">停止计时</string>
+    <string name="timer_settings">计时设置</string>
+    <string name="statistics">统计</string>
+    <string name="focus_notification_title">专注中</string>
+    <string name="break_notification_title">休息中</string>
+    <string name="notification_channel_name">SimpleTomato计时通知</string>
+    <string name="notification_channel_description">显示SimpleTomato的计时状态</string>
+    <string name="completed_pomodoros">已完成的番茄钟</string>
+    <string name="total_focus_time">总专注时间</string>
+    <string name="today_focus_time">今日专注时间</string>
+    <string name="date">日期</string>
+    <string name="duration">时长</string>
+    <string name="minutes">%d 分钟</string>
+    <string name="remaining_time">剩余时间: %s</string>
+</resources> 

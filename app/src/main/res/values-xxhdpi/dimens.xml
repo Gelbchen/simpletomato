@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 高分辨率屏幕的尺寸 -->
+    <dimen name="text_size_small">15sp</dimen>
+    <dimen name="text_size_medium">17sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_xlarge">26sp</dimen>
+    <dimen name="text_size_xxlarge">54sp</dimen>
+    
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_medium">18dp</dimen>
+    <dimen name="margin_large">28dp</dimen>
+    <dimen name="margin_xlarge">36dp</dimen>
+    
+    <dimen name="padding_small">10dp</dimen>
+    <dimen name="padding_medium">18dp</dimen>
+    <dimen name="padding_large">28dp</dimen>
+</resources> 
